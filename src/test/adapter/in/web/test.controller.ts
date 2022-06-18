@@ -11,7 +11,7 @@ export class TestController {
     return 'testAPI here';
   }
 
-  @Get(':userId')
+  @Get('/:userId')
   @ApiOperation({
     summary: '유저 아이디로 로그 필터',
   })

@@ -10,7 +10,7 @@ export class TestService {
     private readonly testRepository: ITestRepository,
   ) {}
 
-  findByUserId(userId: string | ObjectId) {
-    return this.testRepository.findByUserId(new ObjectId(userId));
+  findByUserId(userId: string) {
+    return this.testRepository.findByUserId(userId);
   }
 }

@@ -24,6 +24,5 @@ import { MongooseModule } from '@nestjs/mongoose';
   ],
   controllers: [TestController],
   providers: [Logger, TestService, TestRepository],
-  exports: [TestService, TestRepository],
 })
 export class TestModule {}

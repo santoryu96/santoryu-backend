@@ -1,5 +1,5 @@
 import { ObjectId } from 'bson';
 
 export interface ITestRepository {
-  findByUserId(userId: ObjectId);
+  findByUserId(userId: string);
 }

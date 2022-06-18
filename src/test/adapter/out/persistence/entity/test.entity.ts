@@ -5,7 +5,7 @@ import { ObjectId } from 'bson';
 export type TestMongooseDocument = TestEntityModel & Document;
 
 @Schema({
-  collection: 'logs',
+  collection: 'logs_raw',
   // _id: true,
 })
 export class TestEntityModel {
